@@ -5,6 +5,8 @@
 
 #define ScreenWidth 128
 #define ScreenHeight 64
+// oled I2c address(most common is 0*3c
+#define oled_ADDR 0x3C
 
 void setup() {
 // write your initialization code here
