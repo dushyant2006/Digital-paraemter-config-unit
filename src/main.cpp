@@ -25,8 +25,9 @@ Serial.begin(9600);
     display.println("Arduino UNO R4");
     display.println("OLED with I2C");
     display.println("Hello Students!");
+    // Show on screen
+    display.display();
 
 
 void loop() {
-// write your code here
 }
