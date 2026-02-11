@@ -16,6 +16,9 @@ Serial.begin(9600);
         Serial.println("OLED NOT FOUND");;
         while (true);
     }
+    display.clearDisplay();
+
+
 void loop() {
 // write your code here
 }
