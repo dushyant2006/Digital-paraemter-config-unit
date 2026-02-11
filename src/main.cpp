@@ -8,6 +8,8 @@
 // oled I2c address(most common is 0*3c
 #define oled_ADDR 0x3C
 
+Adafruit_SSD1306 display(ScreenWidth, ScreenHeight,&Wire,-1);
+
 void setup() {
 // write your initialization code here
 }
