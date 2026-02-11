@@ -17,6 +17,8 @@ Serial.begin(9600);
         while (true);
     }
     display.clearDisplay();
+    display.setTextSize(1);
+    display.setTextColor(SSD1306_WHITE);
 
 
 void loop() {
